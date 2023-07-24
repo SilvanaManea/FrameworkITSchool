@@ -1,0 +1,7 @@
+testCases\Forms_TC2.class
+org\example\Main.class
+testCases\Login_TC1.class
+pages\LoginPage.class
+pages\HomePage.class
+pages\LogoutPage.class
+pages\FormsPage.class

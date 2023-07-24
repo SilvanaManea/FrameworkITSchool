@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="17.398" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Check the addition to the shopping cart feature" name="Check the addition to the shopping cart scenario" time="16.65">
+<system-out><![CDATA[
+Given user open the page....................................................passed
+And user insert the  username: "florentina.arcan02+test@gmail.com"..........passed
+And user click on the continue button.......................................passed
+And user insert the password: "Admin123!"...................................passed
+When user click on login button.............................................passed
+Then user is login on the page..............................................passed
+Given user go to figures menu...............................................passed
+And user adds one figure to the shopping cart...............................passed
+Then user go to puzzle menu.................................................passed
+And user add one puzzle to the shopping cart................................passed
+Then user go to educational games...........................................passed
+And user add one educational game to the shopping cart......................passed
+When user click on shopping cart............................................passed
+Then user sees all objects added............................................passed
+And user clears the shopping cart...........................................passed
+And user closes the browser.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check health test endpoint" name="Check health test endpoint" time="0.598">
+<system-out><![CDATA[
+Given I send a GET request to the health check API..........................passed
+Then the response body contains "Notes API is Running"......................passed
+]]></system-out>
+</testcase>
+</testsuite>
